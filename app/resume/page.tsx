@@ -14,7 +14,13 @@ export default async function ProjectsPage() {
 						Resume
 					</h2>
 					<p className="mt-4 text-zinc-400">
-						Feel free to download my CV and <Link  className="underline duration-500 hover:text-zinc-300" href={"mailto:ishak.larbi@inttic.dz"}>contact me</Link>
+						Feel free to Download my CV and <Link  className="underline duration-500 hover:text-zinc-300" href={"mailto:ishak.larbi@inttic.dz"}>Contact Me</Link>
+					</p>
+					<p className="mt-4 text-zinc-300">
+						Languages:&nbsp;&nbsp;&nbsp;&nbsp;  js(Typescript as superset), python, PHP, SQL <br />
+						Tech Stack:&nbsp;&nbsp;&nbsp;&nbsp; MERN, NEXTjs, tailwindcss, postCSS <br />
+						Tools:&nbsp;&nbsp;&nbsp;&nbsp; RedHat Linux, Bash scripting, Git, Jira, Docker, Kubernetes, Neovim <br />
+						Other skills:&nbsp;&nbsp;&nbsp;&nbsp; Networking(CCNP), Cloud Computing(Basics), Virtualization(Esxi, ProxmoxVE) <br />
 					</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />

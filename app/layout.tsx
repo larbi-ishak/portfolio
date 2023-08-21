@@ -35,7 +35,6 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		title: "LARBI ISHAK",
-		card: "summary_large_image",
 	},
 	icons: {
 		shortcut: "/FAV.png",
