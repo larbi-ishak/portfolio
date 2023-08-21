@@ -6,19 +6,21 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "LARBI ISHAK",
+		template: "%s | LARBI ISHAK",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Software engineer at AMB International and web developer Voluntter at IGEnergy CLUB",
+	// openGraph is used for appearing when sharing a link  in a social media and
+	// a photo apperas
 	openGraph: {
-		title: "chronark.com",
+		title: "LARBI ISHAK",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Software engineer at AMB International and web developer at IGEnergy CLUB",
+		url: "portfolio-larbi-ishak.vercel.app",
+		siteName: "LARBI ISHAK",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://twitter.com/LARBIIshak3/photo",
 				width: 1920,
 				height: 1080,
 			},
