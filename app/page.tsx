@@ -5,6 +5,8 @@ import Particles from "./components/particles";
 const navigation = [
 	{ name: "Projects", href: "/projects" },
 	{ name: "Contact", href: "/contact" },
+	{ name: "Resume", href: "/resume" },
+	{ name: "Blog (coming sonn)", href: "/blog" },
 ];
 
 export default function Home() {
@@ -39,22 +41,22 @@ export default function Home() {
 					solutions at{" "}
 					<Link
 						target="_blank"
-						href="https://upstash.com"
+						href="https://bio-pro-larbi-ishak.vercel.app/"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						AMB Internationl
+						AMB International
 					</Link>
 
 					<br />
 					and working on{" "}
 					<Link
 						target="_blank"
-						href="https://unkey.dev"
+						href="https://github.com/larbi-ishak"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						open source and Freelance projects
+						Freelance and open source projects
 					</Link>{" "}
-					at night.
+					at free time.
 				</h2>
 			</div>
 		</div>

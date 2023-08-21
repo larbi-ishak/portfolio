@@ -11,20 +11,14 @@ export const metadata: Metadata = {
 	},
 	description: "Software engineer at AMB International and web developer Voluntter at IGEnergy CLUB",
 	// openGraph is used for appearing when sharing a link  in a social media and
-	// a photo apperas
+	// a photo appears  openGraph for Facebook
 	openGraph: {
 		title: "LARBI ISHAK",
 		description:
 			"Software engineer at AMB International and web developer at IGEnergy CLUB",
 		url: "portfolio-larbi-ishak.vercel.app",
 		siteName: "LARBI ISHAK",
-		images: [
-			{
-				url: "https://twitter.com/LARBIIshak3/photo",
-				width: 1920,
-				height: 1080,
-			},
-		],
+		images: "/FAV.png",
 		locale: "en-US",
 		type: "website",
 	},
@@ -44,7 +38,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 	},
 	icons: {
-		shortcut: "/favicon.png",
+		shortcut: "/FAV.png",
 	},
 };
 const inter = Inter({
