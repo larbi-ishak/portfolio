@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "LARBI ISHAK",
 		card: "summary_large_image",
 	},
 	icons: {
