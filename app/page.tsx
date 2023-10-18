@@ -11,6 +11,7 @@ export default function Home() {
         <p className="col-span-3">
           Software Developer{" "}
           <Link
+            target="_blank"
             className="underline"
             href={"https://www.ambinternationale.com/"}
           >
@@ -18,7 +19,11 @@ export default function Home() {
           </Link>{" "}
           proficient in the Back End stack. Interested in building software,
           design systems, user experience, and tooling. Working on Freelance and{" "}
-          <Link className="underline" href={"https://github.com/larbi-ishak"}>
+          <Link
+            target="_blank"
+            className="underline"
+            href={"https://github.com/larbi-ishak"}
+          >
             open source projects
           </Link>{" "}
           at free time.
@@ -31,7 +36,7 @@ export default function Home() {
               <Github />
               <p className="text-zinc-400">@larbi-ishak</p>
               <div>
-                <Link href={"https://github.com/larbi-ishak"}>
+                <Link target="_blank" href={"https://github.com/larbi-ishak"}>
                   <Button className="rounded-full">Follow</Button>
                 </Link>
               </div>
@@ -48,7 +53,7 @@ export default function Home() {
               />
               <p className=" text-zinc-400">@LARBIIshak3</p>
               <div>
-                <Link href={"https://twitter.com/LARBIIshak3"}>
+                <Link target="_blank" href={"https://twitter.com/LARBIIshak3"}>
                   <Button className="rounded-full">Follow</Button>
                 </Link>
               </div>
@@ -61,7 +66,10 @@ export default function Home() {
               <Facebook />
               <p className="text-zinc-400">Larbi Ishak</p>
               <div>
-                <Link href={"https://www.facebook.com/ishak.larbi.94"}>
+                <Link
+                  target="_blank"
+                  href={"https://www.facebook.com/ishak.larbi.94"}
+                >
                   <Button className="rounded-full">Follow</Button>
                 </Link>
               </div>
@@ -72,7 +80,10 @@ export default function Home() {
               <Linkedin />
               <p className="ml-4 text-zinc-400">LARBI ISHAK</p>
               <div>
-                <Link href={"https://www.linkedin.com/in/larbishak/"}>
+                <Link
+                
+            target="_blank"
+                href={"https://www.linkedin.com/in/larbishak/"}>
                   <Button className="rounded-full">Follow</Button>
                 </Link>
               </div>

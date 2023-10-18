@@ -6,28 +6,32 @@ export default function Footer() {
     <footer className="text-gray-500">
       <hr />
       <div className="flex my-2 justify-between ">
-        <div >2023 &copy; LARBI ISHAK</div>
+        <div>2023 &copy; LARBI ISHAK</div>
         <div className="flex ">
           <Link
-            href={"/"}
+            href={"https://github.com/larbi-ishak"}
+            target="_blank"
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
           >
             <Github />
           </Link>
           <Link
-            href={"/"}
+            target="_blank"
+            href={"https://www.linkedin.com/in/larbishak/"}
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
           >
             <Linkedin />
           </Link>
           <Link
-            href={"/"}
+            href={"https://twitter.com/LARBIIshak3"}
+            target="_blank"
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
           >
             <Twitter />
           </Link>
           <Link
-            href={"/"}
+            target="_blank"
+            href={"https://www.facebook.com/ishak.larbi.94"}
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
           >
             <Facebook />
@@ -35,6 +39,7 @@ export default function Footer() {
           <Link
             href={"/"}
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
+            target="_blank"
           >
             <svg
               stroke="currentColor"
