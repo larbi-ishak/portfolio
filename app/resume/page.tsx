@@ -1,61 +1,161 @@
 import Link from "next/link";
-import React from "react";
-import { Navigation } from "../components/nav";
-import { Card } from "../components/card";
-import { Article } from "./article";
+import { Button } from "@/components/ui/button";
+import Container from "@/components/container";
+import { Github } from "lucide-react";
+import Image from "next/image";
 
-export default async function ProjectsPage() {
-	return (
-		<div className="relative pb-16">
-			<Navigation />
-			<div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
-				<div className="max-w-2xl mx-auto lg:mx-0">
-					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-						Resume
-					</h2>
-					<p className="mt-4 text-zinc-400">
-						Feel free to Download my CV and <Link  className="underline duration-500 hover:text-zinc-300" href={"mailto:ishak.larbi@inttic.dz"}>Contact Me</Link>
-					</p>
-					<p className="mt-4 text-zinc-300">
-						Languages:&nbsp;&nbsp;&nbsp;&nbsp;  js(Typescript as superset), python, PHP, SQL <br />
-						Tech Stack:&nbsp;&nbsp;&nbsp;&nbsp; MERN, NEXTjs, tailwindcss, postCSS <br />
-						Tools:&nbsp;&nbsp;&nbsp;&nbsp; RedHat Linux, Bash scripting, Git, Jira, Docker, Kubernetes, Neovim <br />
-						Other skills:&nbsp;&nbsp;&nbsp;&nbsp; Networking(CCNP), Cloud Computing(Basics), Virtualization(Esxi, ProxmoxVE) <br />
-					</p>
-				</div>
-				<div className="w-full h-px bg-zinc-800" />
+export default function Resume() {
+  return (
+    <main>
+      <section className="grid gap-y-6">
+        <p className="col-span-3">
+          Software Developer{" "}
+          <Link
+            className="underline"
+            href={"https://www.ambinternationale.com/"}
+          >
+            @AMB International
+          </Link>{" "}
+          proficient in the Back End stack. Interested in building software,
+          design systems, user experience, and tooling. Working on Freelance and{" "}
+          <Link className="underline" href={"https://github.com/larbi-ishak"}>
+            open source projects
+          </Link>{" "}
+          at free time.
+        </p>
+      </section>
 
-				<div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
-					<Card>
-						<Link href={`/projects/`}>
-							<article className="relative w-full h-full p-4 md:p-8">
-
-								<h2
-									id="featured-post"
-									className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
-								>
-								LARBI ISHAK CV
-								</h2>
-								<p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-									Discover it Discover it Discover it
-								</p>
-								<div className="absolute bottom-4 md:bottom-4">
-									<p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-										Read more <span aria-hidden="true">&rarr;</span>
-									</p>
-								</div>
-							</article>
-						</Link>
-					</Card>
-
-					<div className="flex flex-col w-full mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
-							<Card >
-								<Article />
-							</Card>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	);
+      <section className="flex mt-4 gap-x-2">
+        <Button>Download Resume ↓</Button>
+        <Button>View Resume →</Button>
+      </section>
+      <section>
+        <h1 className="mt-3 text-2xl underline font-bold">Work Experience</h1>
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+          <Container>
+            <div className="py-4 px-4 flex flex-col">
+              <div className="flex justify-between">
+                <div className="flex">
+                    <Image
+                      src={"/juba.jpg"}
+                      width={60}
+                      height={60}
+                      alt="amb logo"
+                    />
+                  <p className="ml-2 text-zinc-400">
+                    <Link
+                      className="underline"
+                      target="blank"
+                      href={"https://www.ambinternationale.com"}
+                    >
+                      Juba Academy
+                    </Link>
+                  </p>
+                </div>
+                <p className="text-zinc-400">Dec 2021, Present</p>
+              </div>
+              <div className="p-4">
+                <h3 className="text-zinc-400">Software Engineer</h3>
+                <ul style={{ listStyleType: "disc" }}>
+                  <li>
+                    Create custom trading indicators and strategies using Pine
+                    Script
+                  </li>
+                  <li>
+                    Integrate trading APIs, and other APIs: live chats and
+                    webinars
+                  </li>
+                  <li>
+                    Create interactive modules with quizzes and charts to
+                    enhance the learning experience
+                  </li>
+                  <li>User authentication and authorization</li>
+                </ul>
+              </div>
+            </div>
+          </Container>
+          <Container>
+            <div className="py-4 px-4 flex flex-col">
+              <div className="flex justify-between">
+                <div className="flex">
+                  <Image
+                    src={"/amb.png"}
+                    width={50}
+                    height={50}
+                    alt="amb logo"
+                  />
+                  <p className="ml-2 text-zinc-400">
+                    <Link
+                      className="underline"
+                      target="blank"
+                      href={"https://www.ambinternationale.com"}
+                    >
+                      AMB International
+                    </Link>
+                  </p>
+                </div>
+                <p className="text-zinc-400">Dec 2021, Present</p>
+              </div>
+              <div className="p-4">
+                <h3 className="text-zinc-400">Software Engineer, Part time</h3>
+                <ul style={{ listStyleType: "disc" }}>
+                  <li>Full website rebuild, migrating from php to Nextjs</li>
+                  <li>
+                    Conducted a codebase imporvement led 16% performance
+                    optimization
+                  </li>
+                  <li>3rd parth API integration</li>
+                  <li>Mobile Responsive design</li>
+                  <li>Incorporated SEO best practices</li>
+                </ul>
+              </div>
+            </div>
+          </Container>
+          <Container>
+            <div className="py-4 px-4 flex flex-col">
+              <div className="flex justify-between">
+                <div className="flex">
+                  <Image
+                    src={"verizon.svg"}
+                    width={80}
+                    height={80}
+                    alt="verizon logo"
+                  />
+                  <Image
+                    src={"forage.svg"}
+                    width={60}
+                    height={60}
+                    alt="forage logo"
+                  />
+                  <p className="ml-6 text-zinc-400">
+                    <Link
+                      className="underline"
+                      target="blank"
+                      href={"https://www.ambinternationale.com"}
+                    >
+                      Verizon & Forage
+                    </Link>
+                  </p>
+                </div>
+                <p className="text-zinc-400"> Aug 2023, Sep 2023</p>
+              </div>
+              <div className="p-4">
+                <h3 className="text-zinc-400">
+                  Cloud Software Engineer: Internship, job simulation{" "}
+                </h3>
+                <ul style={{ listStyleType: "disc" }}>
+                  <li>Testing entreprise VPN solution</li>
+                  <li>Interact and test cloud applications with Python</li>
+                  <li>
+                    Present and Communicate application test results with the
+                    CCE team.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Container>
+        </section>
+      </section>
+    </main>
+  );
 }
