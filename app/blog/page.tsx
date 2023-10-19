@@ -6,6 +6,7 @@ export default function Blog() {
   const posts = allPosts.sort((a: any, b: any) =>
     compareDesc(new Date(a.date), new Date(b.date))
   );
+
   return (
     <div className="">
       <h1 className="mb-3 underline text-2xl">

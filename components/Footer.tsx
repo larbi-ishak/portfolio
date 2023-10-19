@@ -3,7 +3,8 @@ import { Github, Facebook, Linkedin, Twitter } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="text-gray-500">
+    <footer className="text-gray-500 font-serif">
+
       <hr />
       <div className="md:flex my-2 justify-between">
         <div className="text-center mb-2">2023 &copy; LARBI ISHAK</div>
