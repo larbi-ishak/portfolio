@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
       <div className="flex justify-between pb-8 items-end">
-        <p className="pb-2 border-b-4 border-zinc-700">
+        <p className="pb-2 border-b-4 border-zinc-700 sm:text-center">
           <Link className="font-bold tracking-tight text-2xl" href="/">
             LARBI ISHAK
           </Link>
