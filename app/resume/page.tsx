@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Container from "@/components/container";
-import { Github } from "lucide-react";
 import Image from "next/image";
 
 export default function Resume() {
@@ -30,7 +29,6 @@ export default function Resume() {
         <Button>View Resume →</Button>
       </section>
       <section>
-        <h1 className="mt-3 text-2xl underline font-bold">Work Experience</h1>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           <Container>
             <div className="py-4 px-4 flex flex-col">
@@ -42,9 +40,8 @@ export default function Resume() {
                       height={60}
                       alt="amb logo"
                     />
-                  <p className="ml-2 text-zinc-400">
+                  <p className="ml-2 font-bold">
                     <Link
-                      className="underline"
                       target="blank"
                       href={"https://www.ambinternationale.com"}
                     >
@@ -84,9 +81,8 @@ export default function Resume() {
                     height={50}
                     alt="amb logo"
                   />
-                  <p className="ml-2 text-zinc-400">
+                  <p className="ml-2 font-bold">
                     <Link
-                      className="underline"
                       target="blank"
                       href={"https://www.ambinternationale.com"}
                     >
@@ -104,7 +100,7 @@ export default function Resume() {
                     Conducted a codebase imporvement led 16% performance
                     optimization
                   </li>
-                  <li>3rd parth API integration</li>
+                  <li>3rd party API integration</li>
                   <li>Mobile Responsive design</li>
                   <li>Incorporated SEO best practices</li>
                 </ul>
@@ -117,19 +113,12 @@ export default function Resume() {
                 <div className="flex">
                   <Image
                     src={"verizon.svg"}
-                    width={80}
-                    height={80}
+                    width={70}
+                    height={70}
                     alt="verizon logo"
                   />
-                  <Image
-                    src={"forage.svg"}
-                    width={60}
-                    height={60}
-                    alt="forage logo"
-                  />
-                  <p className="ml-6 text-zinc-400">
+                  <p className="ml-6 font-bold">
                     <Link
-                      className="underline"
                       target="blank"
                       href={"https://www.ambinternationale.com"}
                     >

@@ -29,7 +29,7 @@ export default function Home() {
           at free time.
         </p>
       </section>
-      <section className="flex flex-wrap mt-8 gap-3">
+      <section className="flex flex-wrap mt-8 gap-3 justify-center">
         <div className="flex flex-col gap-2">
           <Container>
             <div className="py-4 px-4 flex items-center justify-between w-80">
@@ -81,9 +81,9 @@ export default function Home() {
               <p className="ml-4 text-zinc-400">LARBI ISHAK</p>
               <div>
                 <Link
-                
-            target="_blank"
-                href={"https://www.linkedin.com/in/larbishak/"}>
+                  target="_blank"
+                  href={"https://www.linkedin.com/in/larbishak/"}
+                >
                   <Button className="rounded-full">Follow</Button>
                 </Link>
               </div>

@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer className="text-gray-500">
       <hr />
-      <div className="flex my-2 justify-between ">
-        <div>2023 &copy; LARBI ISHAK</div>
-        <div className="flex ">
+      <div className="md:flex my-2 justify-between">
+        <div className="text-center mb-2">2023 &copy; LARBI ISHAK</div>
+        <div className="flex justify-center">
           <Link
             href={"https://github.com/larbi-ishak"}
             target="_blank"

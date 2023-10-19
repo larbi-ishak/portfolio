@@ -10,42 +10,42 @@ export default function Navbar() {
             LARBI ISHAK
           </Link>
         </p>
-        <div className="flex items-center gap-x-2">
-        <ToggleTheme/>
-        <ul className="text-sm flex flex-wrap gap-x-2 border border-zinc-200 px-4 rounded-full shadow-sm hover:shadow-md transition">
-          <li>
-            <Link
-              className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
-              href="/blog"
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
-              href="/contact"
-            >
-              Contact
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
-              href="/projects"
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
-              href="/resume"
-            >
-              Resume
-            </Link>
-          </li>
-        </ul>
+        <div className="flex items-center gap-x-2 invisible md:visible ">
+          <ToggleTheme />
+          <ul className="text-sm flex flex-wrap gap-x-2 border border-zinc-200 px-4 rounded-full shadow-sm hover:shadow-md transition">
+            <li>
+              <Link
+                className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
+                href="/blog"
+              >
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
+                href="/contact"
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
+                href="/projects"
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="block text-zinc-500 hover:text-zinc-700 transition-colors font-medium py-2 px-2"
+                href="/resume"
+              >
+                Resume
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
