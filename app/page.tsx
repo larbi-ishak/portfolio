@@ -91,6 +91,9 @@ export default function Home() {
           </Container>
         </div>
       </section>
+      <section>
+        skills
+      </section>
     </main>
   );
 }

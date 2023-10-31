@@ -8,7 +8,7 @@ export default function Resume() {
     <main>
       <section className="grid gap-y-6">
         <p className="col-span-3">
-          Software Developer{" "}
+          Software Engineer{" "}
           <Link
             className="underline"
             href={"https://www.ambinternationale.com/"}
@@ -16,7 +16,7 @@ export default function Resume() {
             @AMB International
           </Link>{" "}
           proficient in the Back End stack. Interested in building software,
-          design systems, user experience, and tooling. Working on Freelance and{" "}
+          design systems and dev tools. Working on Freelance and{" "}
           <Link className="underline" href={"https://github.com/larbi-ishak"}>
             open source projects
           </Link>{" "}
