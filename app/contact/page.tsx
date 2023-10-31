@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
   // import 'react-toastify/dist/ReactToastify.min.css';
 
 
-export function TextareaWithButton() {
+function TextareaWithButton() {
   const notify = () => toast.success("Message sent!");
   const warnEmpty = () => {
     toast.warn("Message Empty! please type ur msg", {
