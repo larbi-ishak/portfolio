@@ -99,7 +99,7 @@ export default function Home() {
           <li>Databases: SQL(PostgreSQL), NoSql(Mongo, Redis)</li>
           <li>Programming Languages: Js/Typescript, Python, Go, C++</li>
           <li>Frameworks: React&Nextjs, Vue&Nuxt, express, Django, Gin/Fiber</li>
-          <li>Tools: Linux(RedHat), Git, Docker, Jira </li>
+          <li>Tools: Linux(RedHat), Git, Docker, Jira</li>
           <li>Cloud: GCP, Huawei Cloud</li>
           <li>Networks: CCNA</li>
         </ul>

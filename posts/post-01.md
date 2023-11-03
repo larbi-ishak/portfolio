@@ -1,7 +1,7 @@
 ---
-title: My First Post
-date: 2021-12-24
-path: first
+title: Why you may(may not) need a college degree?
+date: 2021-12-26
+path: need-college-degree
 ---
 
 Ullamco et nostrud magna commodo nostrud ...
