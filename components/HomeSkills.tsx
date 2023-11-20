@@ -10,6 +10,7 @@ const HomeSkills = ()=>{
           <li>Tools: Linux(RedHat), Git, Docker, Jira</li>
           <li>Cloud: GCP, Huawei Cloud</li>
           <li>Networks: CCNA</li>
+          <li>Communications and collaboration, Problem-sovling, Critical thinking</li>
         </ul>
      </section>
     )

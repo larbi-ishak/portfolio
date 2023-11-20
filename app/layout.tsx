@@ -14,6 +14,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
       <body  className="sm:mx-20 sm:my-10 mx-4 my-4 font-mono">

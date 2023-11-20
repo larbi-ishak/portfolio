@@ -7,6 +7,7 @@ import LatestBlogs from "@/components/HomeLatestBlogs";
 import HomeSkills from "@/components/HomeSkills";
 
 export default function Home() {
+
   return (
     <main className="p-5">
       <section className="grid gap-y-6">

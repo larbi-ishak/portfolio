@@ -33,7 +33,7 @@ function TextareaWithButton() {
     <div className="grid relative w-full gap-2">
       <Textarea placeholder="Type your message here." value={textVal} onChange={handleChange} style={{height: "150px"}} />
       <Button className="absolute right-10 bottom-5" onClick={handleMessage}>Send Me Message</Button>
-        <ToastContainer  autoClose={2000}/>
+        <ToastContainer  autoClose={2000} />
     </div>
   )
 }
