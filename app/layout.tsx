@@ -16,10 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body  className="mx-20 my-10 font-mono">
+      <body  className="sm:mx-20 sm:my-10 mx-4 my-4 font-mono">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
             <Navbar/>
-            <div className='px-6 py-4'>
+            <div className='sm:px-6 sm:py-4'>
             {children}
             </div>
             <Footer/>
