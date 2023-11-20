@@ -7,6 +7,7 @@ const HomeSkills = ()=>{
           <li>Backend: Nodejs, Go, Python</li>
           <li>Databases: SQL(PostgreSQL), NoSql(Mongo, Redis)</li>
           <li>Frameworks: React&Nextjs, Vue&Nuxt, express, Django, Gin/Fiber</li>
+          <li>Testing: Jest, Vitest</li>
           <li>Tools: Linux(RedHat), Git, Docker, Jira</li>
           <li>Cloud: GCP, Huawei Cloud</li>
           <li>Networks: CCNA</li>
