@@ -1,23 +1,28 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Container from "@/components/container";
-import Image from "next/image";
 
 export default function Resume() {
   return (
     <main>
       <section className="grid gap-y-6">
+
         <p className="col-span-3">
           Software Engineer{" "}
           <Link
+            target="_blank"
             className="underline"
             href={"https://www.ambinternationale.com/"}
           >
             @AMB International
           </Link>{" "}
           proficient in the Back End stack. Interested in building software,
-          design systems and dev tools. Working on Freelance and{" "}
-          <Link className="underline" href={"https://github.com/larbi-ishak"}>
+          design systems, user experience, and tooling. Working on Freelance and{" "}
+          <Link
+            target="_blank"
+            className="underline"
+            href={"https://github.com/larbi-ishak"}
+          >
             open source projects
           </Link>{" "}
           at free time.
@@ -34,39 +39,23 @@ export default function Resume() {
             <div className="py-4 px-4 flex flex-col">
               <div className="flex justify-between">
                 <div className="flex">
-                    <Image
-                      src={"/juba.jpg"}
-                      width={60}
-                      height={60}
-                      alt="amb logo"
-                    />
-                  <p className="ml-2 font-bold">
-                    <Link
-                      target="blank"
-                      href={"https://www.ambinternationale.com"}
-                    >
-                      Juba Academy
-                    </Link>
-                  </p>
+                  <Link
+                    className="font-bold"
+                    target="blank"
+                    href={"https://www.ambinternationale.com"}
+                  >
+                    Freelancer
+                  </Link>
                 </div>
-                <p className="text-zinc-400">Dec 2021, Present</p>
+                <p className="text-zinc-400"> Aug 2021, Present</p>
               </div>
               <div className="p-4">
-                <h3 className="text-zinc-400">Software Engineer</h3>
+                <h3 className="text-zinc-400">Software engineer/ Web dev </h3>
                 <ul style={{ listStyleType: "disc" }}>
-                  <li>
-                    Create custom trading indicators and strategies using Pine
-                    Script
-                  </li>
-                  <li>
-                    Integrate trading APIs, and other APIs: live chats and
-                    webinars
-                  </li>
-                  <li>
-                    Create interactive modules with quizzes and charts to
-                    enhance the learning experience
-                  </li>
-                  <li>User authentication and authorization</li>
+                  <li>Codebase Improvement, Refactoring and Performance Optimization</li>
+                  <li>Create comprehensive documentation for the codebase, APIs, and any custom functionality.</li>
+                  <li>User Technology Migration  PHP to Next.js, Reactjs to Vue, Nodejs to Go </li>
+                  <li>Implement a responsive design approach</li>
                 </ul>
               </div>
             </div>
@@ -75,20 +64,13 @@ export default function Resume() {
             <div className="py-4 px-4 flex flex-col">
               <div className="flex justify-between">
                 <div className="flex">
-                  <Image
-                    src={"/amb.png"}
-                    width={50}
-                    height={50}
-                    alt="amb logo"
-                  />
-                  <p className="ml-2 font-bold">
-                    <Link
-                      target="blank"
-                      href={"https://www.ambinternationale.com"}
-                    >
-                      AMB International
-                    </Link>
-                  </p>
+                  <Link
+                    className="font-bold"
+                    target="blank"
+                    href={"https://www.ambinternationale.com"}
+                  >
+                    AMB International
+                  </Link>
                 </div>
                 <p className="text-zinc-400">Dec 2021, Present</p>
               </div>
@@ -111,20 +93,13 @@ export default function Resume() {
             <div className="py-4 px-4 flex flex-col">
               <div className="flex justify-between">
                 <div className="flex">
-                  <Image
-                    src={"verizon.svg"}
-                    width={70}
-                    height={70}
-                    alt="verizon logo"
-                  />
-                  <p className="ml-6 font-bold">
-                    <Link
-                      target="blank"
-                      href={"https://www.ambinternationale.com"}
-                    >
-                      Verizon & Forage
-                    </Link>
-                  </p>
+                  <Link
+                    className="font-bold"
+                    target="blank"
+                    href={"https://www.ambinternationale.com"}
+                  >
+                    Verizon & Forage
+                  </Link>
                 </div>
                 <p className="text-zinc-400"> Aug 2023, Sep 2023</p>
               </div>

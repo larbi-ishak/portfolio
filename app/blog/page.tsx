@@ -13,18 +13,18 @@ export default function Blog() {
         Blogs
       </h1>
       <>
-      {posts.map((post: any, idx: number) => (
-        <div className="flex justify-between pr-20" key={idx}>
-          <Link href={`/blog/${post.path}`} className="hover:underline">{post.title} →</Link>
-          <time
-            dateTime={post.date}
-            className="mb-2 text-xs text-gray-600"
-          >
-            {format(parseISO(post.date), "LLLL d, yyyy")}
-          </time>
-        </div>
-      ))}
-</>
+        {posts.map((post: any, idx: number) => (
+          <div className="flex justify-between gap-2 ml-2" key={idx}>
+            <Link href={`/blog/${post.path}`} className="hover:underline">{post.title} →</Link>
+            <time
+              dateTime={post.date}
+              className="mb-2 text-xs text-gray-600"
+            >
+              {format(parseISO(post.date), "LLLL d, yyyy")}
+            </time>
+          </div>
+        ))}
+      </>
       <h1 className="mb-3 underline text-2xl">
         Talks
       </h1>

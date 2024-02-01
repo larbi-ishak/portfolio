@@ -1,6 +1,6 @@
 import { format, parseISO } from "date-fns";
 import { allPosts } from "contentlayer/generated";
-import  Link from "next/link";
+import Link from "next/link";
 
 export const generateMetadata = ({ params }: { params: { title: string } }) => {
   const post = allPosts.find(
@@ -10,7 +10,7 @@ export const generateMetadata = ({ params }: { params: { title: string } }) => {
   return { title: post.title };
 };
 
-export default function PostLayout({ params }: { params: { title: string } })  {
+export default function PostLayout({ params }: { params: { title: string } }) {
 
   // fetching exact post for using in
   const post = allPosts.find(
@@ -19,7 +19,7 @@ export default function PostLayout({ params }: { params: { title: string } })  {
   if (!post) throw new Error(`Post not found for title: ${params.title}`);
 
   return (
-    <article className="mx-20">
+    <article className="mx-5 md:mx-20">
       <div className="mb-8 text-center">
         <Link href="/blog" className="block  text-md p-6 text-gray-600 hover:underline">← Back to all posts</Link>
         <time dateTime={post.date} className="mb-1 text-sm text-gray-600">
@@ -37,4 +37,4 @@ export default function PostLayout({ params }: { params: { title: string } })  {
 
 
 export const generateStaticParams = async () =>
-  allPosts.map((post) => ({ title: post.path}));
+  allPosts.map((post) => ({ title: post.path }));

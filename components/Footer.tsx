@@ -24,7 +24,7 @@ export default function Footer() {
             <Linkedin />
           </Link>
           <Link
-            href={"https://twitter.com/LARBIIshak3"}
+            href={"https://twitter.com/larbizyo"}
             target="_blank"
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
           >
@@ -38,7 +38,7 @@ export default function Footer() {
             <Facebook />
           </Link>
           <Link
-            href={"/"}
+            href={"https://medium.com/@larbishak2003"}
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
             target="_blank"
           >
@@ -57,6 +57,6 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }

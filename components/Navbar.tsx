@@ -10,7 +10,8 @@ export default function Navbar() {
             LARBI ISHAK
           </Link>
         </p>
-        <div className="flex items-center font-serif gap-x-2 invisible md:visible ">
+        <div className="flex md:hidden gap-2 mr-4" ><ToggleTheme /></div>
+        <div className=" hidden md:flex items-center font-serif gap-x-2 ">
           <ToggleTheme />
           <ul className="text-sm flex flex-wrap gap-x-2 border border-zinc-200 px-4 rounded-full shadow-sm hover:shadow-md transition">
             <li>

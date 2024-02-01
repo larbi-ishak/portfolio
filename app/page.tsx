@@ -12,7 +12,7 @@ export default function Home() {
     <main className="p-5">
       <section className="grid gap-y-6">
         <p className="col-span-3">
-          Software Developer{" "}
+          Software Engineer{" "}
           <Link
             target="_blank"
             className="underline"
