@@ -11,7 +11,7 @@ const HomeSkills = () => {
         <li>Tools: Linux, Git, Docker</li>
         <li>Cloud: GCP, Huawei Cloud</li>
         <li>Network: CCNA</li>
-        <li>Communications and collaboration, Problem-sovling, Critical thinking</li>
+        <li>Other Skills: Communications and collaboration, Writing Documentation, Problem-sovling, Critical thinking, Time Managemnt</li>
       </ul>
     </section>
   )
