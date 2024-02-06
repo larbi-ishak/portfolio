@@ -96,7 +96,7 @@ export default function Resume() {
                   Cloud, Linux, Database Training
                 </h3>
                 <ul style={{ listStyleType: "disc" }}>
-                  <li>Understandign of GAUSSDB (postgresql-based db) and experience in database management tasks such as data modeling, querying, and optimization.</li>
+                  <li>Understanding of GAUSSDB (postgresql-based db) and experience in database management tasks such as data modeling, querying, and optimization.</li>
                   <li>database administration tasks like backup, replication and recovery, data integrity(procedures, triggers ...)</li>
                   <li>Knowledge of database design</li>
                   <li>Proficiency in Linux system administration shell scripting</li>
