@@ -93,7 +93,7 @@ export default function Resume() {
               </div>
               <div className="p-4">
                 <h3 className="text-zinc-400">
-                  Cloud, Linux, Data Training
+                  Cloud, Linux, Database Training
                 </h3>
                 <ul style={{ listStyleType: "disc" }}>
                   <li>Understandign of GAUSSDB (postgresql-based db) and experience in database management tasks such as data modeling, querying, and optimization.</li>
