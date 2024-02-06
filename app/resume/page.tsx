@@ -87,6 +87,30 @@ export default function Resume() {
             <div className="py-4 px-4 flex flex-col">
               <div className="flex justify-between">
                 <div className="flex font-bold">
+                  HUAWEI
+                </div>
+                <p className="text-zinc-400"> March 2023</p>
+              </div>
+              <div className="p-4">
+                <h3 className="text-zinc-400">
+                  Cloud, Linux, Data Training
+                </h3>
+                <ul style={{ listStyleType: "disc" }}>
+                  <li>Understandign of GAUSSDB (postgresql-based db) and experience in database management tasks such as data modeling, querying, and optimization.</li>
+                  <li>database administration tasks like backup, replication and recovery, data integrity(procedures, triggers ...)</li>
+                  <li>Knowledge of database design</li>
+                  <li>Proficiency in Linux system administration shell scripting</li>
+                  <li>Familiarity with Linux server technologies such as Apache and SSH  and Virualization(KVM)</li>
+                  <li>Familiarity with OpenEuler (RedHat-based linux distro)</li>
+                  <li>Basic Cloud Concepts:instances, VPC, security group, load balancers</li>
+                </ul>
+              </div>
+            </div>
+          </Container>
+          <Container>
+            <div className="py-4 px-4 flex flex-col">
+              <div className="flex justify-between">
+                <div className="flex font-bold">
                   Verizon & Forage
                 </div>
                 <p className="text-zinc-400"> Aug 2023, Sep 2023</p>
