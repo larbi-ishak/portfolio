@@ -5,11 +5,10 @@ const HomeSkills = () => {
       <ul>
         <li>Frontend: HTML, CSS, JS/TS</li>
         <li>Backend: Nodejs, Go, Python</li>
-        <li>Databases: SQL(PostgreSQL), NoSql(Mongo, Redis)</li>
-        <li>Frameworks: React&Nextjs, Vue&Nuxt, Nestjs(fasitfy), Django, Gin, ReactNative</li>
-        <li>Testing: Playwright, Vitest</li>
-        <li>Tools: Linux, BashScript, Git, Docker</li>
-        <li>Cloud: GCP, Huawei Cloud</li>
+        <li>Databases: SQL(PostgreSQL, MySql), NoSql(Mongo), ORM(Prisma, Drizzle)</li>
+        <li>Frameworks: React&Nextjs, Vue, Nestjs, Django, Gin, ReactNative</li>
+        <li>Tools: Linux, BashScript, Docker, K8s</li>
+        <li>Cloud: GCP, HUAWEI Cloud</li>
         <li>Network: CCNA</li>
         <li>Other Skills: Communications and collaboration, Writing Documentation, Problem-sovling, Critical thinking, Time Managemnt</li>
       </ul>
