@@ -54,9 +54,9 @@ export default function Home() {
                 alt={"Example SVG"}
                 className="p-0 m-0"
               />
-              <p className=" text-zinc-400">@LARBIIshak3</p>
+              <p className=" text-zinc-400">@larbizyo</p>
               <div>
-                <Link target="_blank" href={"https://twitter.com/LARBIIshak3"}>
+                <Link target="_blank" href={"https://twitter.com/larbizyo"}>
                   <Button className="rounded-full">Follow</Button>
                 </Link>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
               <div>
                 <Link
                   target="_blank"
-                  href={"https://www.facebook.com/ishak.larbi.94"}
+                  href={"https://www.facebook.com/larbizyo"}
                 >
                   <Button className="rounded-full">Follow</Button>
                 </Link>

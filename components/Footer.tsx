@@ -32,7 +32,7 @@ export default function Footer() {
           </Link>
           <Link
             target="_blank"
-            href={"https://www.facebook.com/ishak.larbi.94"}
+            href={"https://www.facebook.com/larbizyo"}
             className="px-2 hover:text-zinc-800 transition ease-in duration-400"
           >
             <Facebook />
