@@ -130,25 +130,6 @@ export default function Resume() {
               </div>
             </div>
           </Container>
-          <Container>
-            <div className="py-4 px-4 flex flex-col">
-              <div className="flex justify-between">
-                <div className="flex font-bold">
-                  GitHub
-                </div>
-                <p className="text-zinc-400">Mar 2024, Present</p>
-              </div>
-              <div className="p-4">
-                <h3 className="text-zinc-400">Campus Expert, Student Ambassador</h3>
-                <ul style={{ listStyleType: "disc" }}>
-                  <li>
-                    Campus Experts are student leaders that strive to build diverse and inclusive spaces to learn
-                    skills, share their experiences, and build projects together
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Container>
 
           <Container>
             <div className="py-4 px-4 flex flex-col">
