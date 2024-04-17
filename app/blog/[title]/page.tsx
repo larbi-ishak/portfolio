@@ -22,10 +22,11 @@ export default function PostLayout({ params }: { params: { title: string } }) {
     <article className="mx-5 md:mx-20">
       <div className="mb-8 text-center">
         <Link href="/blog" className="block  text-md p-6 text-gray-600 hover:underline">← Back to all posts</Link>
+        <h1 className="text-3xl font-bold">{post.title}</h1>
         <time dateTime={post.date} className="mb-1 text-sm text-gray-600">
           {format(parseISO(post.date), "LLLL d, yyyy")}
         </time>
-        <h1 className="text-3xl font-bold">{post.title}</h1>
+        <div className="mb-1 text-sm text-gray-600"> {post.length} min read </div>
       </div>
       <div
         className="[&>*]:mb-3 [&>*:last-child]:mb-0"

@@ -1,7 +1,6 @@
 ---
-title: My Second Post
-date: 2021-12-24
-path: second
+title: CCE in Huawei Cloud
+date: 2023-12-24
+path: cce-huawei
+length: 10
 ---
-
-Ullamco et nostrud magna commodo nostrud ...
