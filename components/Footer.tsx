@@ -7,7 +7,7 @@ export default function Footer() {
 
       <hr />
       <div className="md:flex my-2 justify-between">
-        <div className="text-center mb-2">2023 &copy; LARBI ISHAK</div>
+        <div className="text-center mb-2">2024 &copy; LARBI ISHAK</div>
         <div className="flex justify-center">
           <Link
             href={"https://github.com/larbi-ishak"}
