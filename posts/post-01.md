@@ -55,7 +55,9 @@ Now Its working we're going to set up Next Cloud.
 
 ---
 
-wget https://download.nextcloud.com/server/releases/latest.zip
+wget https://download.nextcloud.com/ \
+
+server/releases/latest.zip
 
 unzip latest.zip
 
